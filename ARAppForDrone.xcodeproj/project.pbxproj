@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3801B132111C002001FFD17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3801B122111C002001FFD17 /* AppDelegate.swift */; };
+		F3801B152111C002001FFD17 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F3801B142111C002001FFD17 /* art.scnassets */; };
+		F3801B172111C002001FFD17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3801B162111C002001FFD17 /* ViewController.swift */; };
+		F3801B1A2111C002001FFD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3801B182111C002001FFD17 /* Main.storyboard */; };
+		F3801B1C2111C004001FFD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3801B1B2111C004001FFD17 /* Assets.xcassets */; };
+		F3801B1F2111C004001FFD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3801B1D2111C004001FFD17 /* LaunchScreen.storyboard */; };
+		F3801B2A2111C004001FFD17 /* ARAppForDroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3801B292111C004001FFD17 /* ARAppForDroneTests.swift */; };
+		F3801B352111C004001FFD17 /* ARAppForDroneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3801B342111C004001FFD17 /* ARAppForDroneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3801B262111C004001FFD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3801B072111C002001FFD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3801B0E2111C002001FFD17;
+			remoteInfo = ARAppForDrone;
+		};
+		F3801B312111C004001FFD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3801B072111C002001FFD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3801B0E2111C002001FFD17;
+			remoteInfo = ARAppForDrone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3801B0F2111C002001FFD17 /* ARAppForDrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARAppForDrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3801B122111C002001FFD17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3801B142111C002001FFD17 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F3801B162111C002001FFD17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3801B192111C002001FFD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3801B1B2111C004001FFD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3801B1E2111C004001FFD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3801B202111C004001FFD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3801B252111C004001FFD17 /* ARAppForDroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARAppForDroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3801B292111C004001FFD17 /* ARAppForDroneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAppForDroneTests.swift; sourceTree = "<group>"; };
+		F3801B2B2111C004001FFD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3801B302111C004001FFD17 /* ARAppForDroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARAppForDroneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3801B342111C004001FFD17 /* ARAppForDroneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAppForDroneUITests.swift; sourceTree = "<group>"; };
+		F3801B362111C004001FFD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3801B0C2111C002001FFD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3801B222111C004001FFD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3801B2D2111C004001FFD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3801B062111C002001FFD17 = {
+			isa = PBXGroup;
+			children = (
+				F3801B112111C002001FFD17 /* ARAppForDrone */,
+				F3801B282111C004001FFD17 /* ARAppForDroneTests */,
+				F3801B332111C004001FFD17 /* ARAppForDroneUITests */,
+				F3801B102111C002001FFD17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3801B102111C002001FFD17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3801B0F2111C002001FFD17 /* ARAppForDrone.app */,
+				F3801B252111C004001FFD17 /* ARAppForDroneTests.xctest */,
+				F3801B302111C004001FFD17 /* ARAppForDroneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3801B112111C002001FFD17 /* ARAppForDrone */ = {
+			isa = PBXGroup;
+			children = (
+				F3801B122111C002001FFD17 /* AppDelegate.swift */,
+				F3801B142111C002001FFD17 /* art.scnassets */,
+				F3801B162111C002001FFD17 /* ViewController.swift */,
+				F3801B182111C002001FFD17 /* Main.storyboard */,
+				F3801B1B2111C004001FFD17 /* Assets.xcassets */,
+				F3801B1D2111C004001FFD17 /* LaunchScreen.storyboard */,
+				F3801B202111C004001FFD17 /* Info.plist */,
+			);
+			path = ARAppForDrone;
+			sourceTree = "<group>";
+		};
+		F3801B282111C004001FFD17 /* ARAppForDroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3801B292111C004001FFD17 /* ARAppForDroneTests.swift */,
+				F3801B2B2111C004001FFD17 /* Info.plist */,
+			);
+			path = ARAppForDroneTests;
+			sourceTree = "<group>";
+		};
+		F3801B332111C004001FFD17 /* ARAppForDroneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3801B342111C004001FFD17 /* ARAppForDroneUITests.swift */,
+				F3801B362111C004001FFD17 /* Info.plist */,
+			);
+			path = ARAppForDroneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3801B0E2111C002001FFD17 /* ARAppForDrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3801B392111C004001FFD17 /* Build configuration list for PBXNativeTarget "ARAppForDrone" */;
+			buildPhases = (
+				F3801B0B2111C002001FFD17 /* Sources */,
+				F3801B0C2111C002001FFD17 /* Frameworks */,
+				F3801B0D2111C002001FFD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARAppForDrone;
+			productName = ARAppForDrone;
+			productReference = F3801B0F2111C002001FFD17 /* ARAppForDrone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3801B242111C004001FFD17 /* ARAppForDroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3801B3C2111C004001FFD17 /* Build configuration list for PBXNativeTarget "ARAppForDroneTests" */;
+			buildPhases = (
+				F3801B212111C004001FFD17 /* Sources */,
+				F3801B222111C004001FFD17 /* Frameworks */,
+				F3801B232111C004001FFD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3801B272111C004001FFD17 /* PBXTargetDependency */,
+			);
+			name = ARAppForDroneTests;
+			productName = ARAppForDroneTests;
+			productReference = F3801B252111C004001FFD17 /* ARAppForDroneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3801B2F2111C004001FFD17 /* ARAppForDroneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3801B3F2111C004001FFD17 /* Build configuration list for PBXNativeTarget "ARAppForDroneUITests" */;
+			buildPhases = (
+				F3801B2C2111C004001FFD17 /* Sources */,
+				F3801B2D2111C004001FFD17 /* Frameworks */,
+				F3801B2E2111C004001FFD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3801B322111C004001FFD17 /* PBXTargetDependency */,
+			);
+			name = ARAppForDroneUITests;
+			productName = ARAppForDroneUITests;
+			productReference = F3801B302111C004001FFD17 /* ARAppForDroneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3801B072111C002001FFD17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Akhzar Nazir";
+				TargetAttributes = {
+					F3801B0E2111C002001FFD17 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F3801B242111C004001FFD17 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F3801B0E2111C002001FFD17;
+					};
+					F3801B2F2111C004001FFD17 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F3801B0E2111C002001FFD17;
+					};
+				};
+			};
+			buildConfigurationList = F3801B0A2111C002001FFD17 /* Build configuration list for PBXProject "ARAppForDrone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3801B062111C002001FFD17;
+			productRefGroup = F3801B102111C002001FFD17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3801B0E2111C002001FFD17 /* ARAppForDrone */,
+				F3801B242111C004001FFD17 /* ARAppForDroneTests */,
+				F3801B2F2111C004001FFD17 /* ARAppForDroneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3801B0D2111C002001FFD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3801B152111C002001FFD17 /* art.scnassets in Resources */,
+				F3801B1F2111C004001FFD17 /* LaunchScreen.storyboard in Resources */,
+				F3801B1C2111C004001FFD17 /* Assets.xcassets in Resources */,
+				F3801B1A2111C002001FFD17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3801B232111C004001FFD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3801B2E2111C004001FFD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3801B0B2111C002001FFD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3801B172111C002001FFD17 /* ViewController.swift in Sources */,
+				F3801B132111C002001FFD17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3801B212111C004001FFD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3801B2A2111C004001FFD17 /* ARAppForDroneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3801B2C2111C004001FFD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3801B352111C004001FFD17 /* ARAppForDroneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3801B272111C004001FFD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3801B0E2111C002001FFD17 /* ARAppForDrone */;
+			targetProxy = F3801B262111C004001FFD17 /* PBXContainerItemProxy */;
+		};
+		F3801B322111C004001FFD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3801B0E2111C002001FFD17 /* ARAppForDrone */;
+			targetProxy = F3801B312111C004001FFD17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3801B182111C002001FFD17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3801B192111C002001FFD17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3801B1D2111C004001FFD17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3801B1E2111C004001FFD17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3801B372111C004001FFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3801B382111C004001FFD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3801B3A2111C004001FFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAppForDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARAppForDrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3801B3B2111C004001FFD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAppForDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARAppForDrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3801B3D2111C004001FFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAppForDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARAppForDroneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARAppForDrone.app/ARAppForDrone";
+			};
+			name = Debug;
+		};
+		F3801B3E2111C004001FFD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAppForDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARAppForDroneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARAppForDrone.app/ARAppForDrone";
+			};
+			name = Release;
+		};
+		F3801B402111C004001FFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAppForDroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARAppForDroneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARAppForDrone;
+			};
+			name = Debug;
+		};
+		F3801B412111C004001FFD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAppForDroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARAppForDroneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARAppForDrone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3801B0A2111C002001FFD17 /* Build configuration list for PBXProject "ARAppForDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3801B372111C004001FFD17 /* Debug */,
+				F3801B382111C004001FFD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3801B392111C004001FFD17 /* Build configuration list for PBXNativeTarget "ARAppForDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3801B3A2111C004001FFD17 /* Debug */,
+				F3801B3B2111C004001FFD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3801B3C2111C004001FFD17 /* Build configuration list for PBXNativeTarget "ARAppForDroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3801B3D2111C004001FFD17 /* Debug */,
+				F3801B3E2111C004001FFD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3801B3F2111C004001FFD17 /* Build configuration list for PBXNativeTarget "ARAppForDroneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3801B402111C004001FFD17 /* Debug */,
+				F3801B412111C004001FFD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3801B072111C002001FFD17 /* Project object */;
+}
